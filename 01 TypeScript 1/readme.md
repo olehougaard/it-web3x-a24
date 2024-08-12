@@ -21,7 +21,7 @@ This section may also refresh some of the things you have forgotten from WEB2.
 Demonstration of various TypeScript concepts. Some of this you may already know.
 
 * `basics.ts` A simple type error, and how to work around it using `any`.
-* `object type vs interface.ts` And object type and an interface. The point is that they are the same thing (except one weird interface feature).
+* `object type vs interface.ts` An object type and an interface. The point is that they are the same thing (except one weird interface feature).
 * `subtype.ts` Everybody knows this works, but why?
 * `intersection.ts` A simple example of intersection types.
 * `narrowing.ts` An example of how type narrowing works in TypeScript, and a case where it isn't so easy to use.
