@@ -10,10 +10,6 @@
   ],
   "author": "Ole Ildsgaard Hougaard",
   "license": "ISC",
-  "bugs": {
-    "url": "https://bitbucket.org/olehougaard/uno/issues"
-  },
-  "homepage": "https://bitbucket.org/olehougaard/uno#readme",
   "dependencies": {
     "@babel/core": "^7.24.6",
     "@babel/preset-env": "^7.24.6",

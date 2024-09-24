@@ -35,7 +35,7 @@
 </script>
 
 <template>
-    <h1>People</h1>
+    <h1>Hires</h1>
     <div id='base'>
         <table id='employees'>
             <thead><tr><td>Id</td><td>Name</td><td>Employee id</td><td>Salary</td><td>Manager</td></tr></thead>
