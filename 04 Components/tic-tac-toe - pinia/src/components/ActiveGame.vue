@@ -4,6 +4,7 @@
   import * as api from '@/api/api'
   import BoardView from '@/components/Board.vue'
   import { store } from '@/api/store'
+  
   const model = store()
 
   console.log(model.player)
