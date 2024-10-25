@@ -20,7 +20,8 @@ class Company {
     }
 
     addEmployee(employee: Person): Company {
-        return new Company(this.name, this.address, [...this.employees, employee])
+        return new Company(this.name, this.address, 
+                           [...this.employees, employee])
      }
 
     removeEmployee(employee: Person) {
@@ -31,6 +32,8 @@ class Company {
 }
 
 let c = new Company("Acme", "Acme Way 1")
-c = c
+const updated = c
     .addEmployee(new Person("", 8))
     .addEmployee(new Person("asdlkfj", 88))
+
+// We have both c and updated

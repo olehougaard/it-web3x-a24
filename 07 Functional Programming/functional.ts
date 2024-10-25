@@ -32,7 +32,7 @@ let c1 = addEmployee(createPerson("", 8), c)
 c1 = addEmployee(createPerson("asdlkfj", 88), c1)
 
 const c2a = addEmployee(createPerson("", 8), c)
-const c2b = addEmployee(createPerson("asdlkfj", 88), c1)
+const c2b = addEmployee(createPerson("asdlkfj", 88), c2a)
 
 let hires = [createPerson("", 8), createPerson("asdlkfj", 88)]
 
